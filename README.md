@@ -19,7 +19,7 @@ To visualise the analysis of words used the listings and reviews data you will n
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in analyzing data from AirBnB homes located in Boston, MA and Oakland, CA. Specifically, I looked at the following questions:
+For this project, I was interestested in analyzing data from AirBnB homes located in Boston, MA and Oakland, CA to discover trends in how both hosts and customers use Airbnb, and whether these translate in different areas of the United States. Specifically, I looked at the following questions:
 
 1. What are the most common words used to describe a listing? Are the same words used to describe Boston and Oakland homes?
 2. How many days a year do homeowners make their homes available to rent? How does this compare between Boston and Oakland?
@@ -32,18 +32,18 @@ For this project, I was interestested in analyzing data from AirBnB homes locate
 
 The following are the files available in this repository:
 
-- AirBnB_Project_1_Analysis.ipynb - a notebook of the analysis performed following the CRISP-DM process
+- airbnb_project_analysis.ipynb - a notebook of the analysis performed following the CRISP-DM process
 
-- calendar_boston.csv and calendar_oakland.csv - csvs containing home_id, date, availability, and price for each home
+- calendar_boston.csv and calendar_oakland.csv - csv files containing listing_id, date, availability, and price for each home
 
-- listings_boston.csv and listings_oakland.csv - these were not used for this particular analysis, but they were available from the original kaggle link
+- listings_boston.csv and listings_oakland.csv - csv files containing information about each listing and host, such as property type, description, location, and amenities.
 
-- reviews_boston.csv and reviews_oakland.csv - csvs containing the home_id, date of review, reviewer_id, reviewer_name, and reviewer comments for the reviewed stays.
+- reviews_boston.csv and reviews_oakland.csv - csv files containing the listing_id, date of review and reviewer comments for the reviewed bookings.
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the blog post available [here]().
+The main findings of the code can be found at the blog post available [here](https://greg-jones.medium.com/can-you-predict-the-price-of-your-next-airbnb-4ac7d073dde9).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to AirBnB and Kaggle for the data.  You can find the Licensing for the data and other descriptive information for the Boston and Oakland data on AirBnB [here](http://insideairbnb.com/get-the-data.html).
+Must give credit to AirBnB for the data.  You can find the Licensing for the data and other descriptive information for the Boston and Oakland data on AirBnB [here](http://insideairbnb.com/get-the-data.html).
