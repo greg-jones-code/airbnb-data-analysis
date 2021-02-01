@@ -1,5 +1,5 @@
 # airbnb-data-analysis
-Analysis of AirBNB data for Edinburgh and Bristol
+Analysis of AirBNB data for Boston and Oakland.
 
 ### Table of Contents
 
@@ -39,6 +39,8 @@ The following are the files available in this repository:
 - listings_boston.csv and listings_oakland.csv - csv files containing information about each listing and host, such as property type, description, location, and amenities.
 
 - reviews_boston.csv and reviews_oakland.csv - csv files containing the listing_id, date of review and reviewer comments for the reviewed bookings.
+
+- AirBnB_listing_desc_words.html - html file containing interactive scattertext plot of common words used in the description of listings in Boston and Oakland.
 
 ## Results<a name="results"></a>
 
